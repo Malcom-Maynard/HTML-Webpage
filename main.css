@@ -1,0 +1,257 @@
+
+        html {
+
+        font-size:  160%;
+        font-family: 'Times New Roman', Times, serif;
+
+        /*text-transform:capitalize;*/
+        text-align:justify;
+    
+        }
+
+        body {
+
+           /* background:whitesmoke;
+           background: url(images/5LYzTBVoS196gvYvw3zjwNno7EL_uhnVITfIonzvd2A.jpg);
+           background-size: contain;
+           linear-gradient(to bottom ,whitesmoke,#d1baba);
+           
+            background: radial-gradient(circle, whitesmoke 20%,red 40%,blue 60%);
+            background:rgba(204, 299, 255, .40);*/
+            background: #F5F5DC
+
+           
+          
+           
+            
+        }
+
+        a{
+            font-size: 150%;
+        }
+        a:visited{
+            color:#4a4a52;
+        }
+
+        a:hover{
+            color: #b7b7bd;
+        }
+        a:link{
+
+            color:#82828f;
+        }
+        
+
+        table, tr, th, td, caption {
+            border: 2px solid black;
+            font-family: 'Courier New ', Courier, monospace;
+            border-collapse : collapse;
+            padding: e.5rem;
+        
+        }
+
+        table[class="hours"]{
+            border: 2px solid black;
+            font-family: 'Courier New ', Courier, monospace;
+            border-collapse : collapse;
+            padding: e.5rem;
+            display:inline-block;
+         }
+        
+       h2,h3{
+        color:#f06a5b;
+       }
+           
+      
+       
+
+       
+
+       img[src^="images/"]{
+
+        border: 5px outset  black;
+        
+       }
+
+       
+      
+       
+       #title{
+
+        color:
+        #f06a5b
+        ;
+        font-size: 200%
+       }
+
+      
+
+       figure,summary,.paragraph{
+        color: black;
+       }
+
+       #burger-1{
+
+        /*
+        height constant, you want width to be relative 
+        */
+        height: 40%;
+        width: 500px;
+        margin:5%;
+        padding: 20px;
+        float:inline-start
+        
+        
+       }
+       #link{
+
+        text-decoration:none
+       }
+       .title-page{
+       
+
+       }
+       .food-continer{
+        background-color: rgb(250,250,250);
+       
+        height: 350px;
+        display: grid;
+        
+    
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto  ;
+
+
+
+
+       }
+
+       .food-item{
+
+        
+        text-align: center;
+        
+       }
+
+       
+
+       .menu-image{
+        transition: all 2s ease;
+
+
+    }
+
+       .menu-image:hover,.fig-cap{
+        transform: scale(1.2);
+        
+
+
+    }
+
+    
+
+
+
+       .container {
+        background-color: rgb(250,250,250);
+        margin: 10px;
+        height: 300px;
+        display: flex;
+        flex-direction: row;
+        
+        justify-content: center;
+        align-items: center;
+        
+        
+       
+    
+    }
+    
+    .container-item {
+        background: rgb(36, 130, 39);
+      color: white;
+      font-size: 25px;
+      text-align: center;
+      width: 70px;
+      line-height: 50px;
+      margin: 10px; 
+      
+    }
+
+    .grid-container {
+        background-color: rgb(250,250,250);
+        margin: 10px;
+        height: 500px;
+        
+    
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto ;
+
+       
+    }
+
+    .grid-item {
+        color: black;
+        font-size: 25px;
+        text-align: center;
+      
+        width: 70px;
+        line-height: 40px;
+        margin: 10px; 
+      }
+
+      #menu-image{
+       
+
+
+    }
+    
+
+
+    #submit-button{
+        margin: 20px 10px;
+        padding: 10px 15px;
+        text-decoration: solid;
+        font-weight: 600;
+        font-size: 20px;
+        transition: background 300ms ease-in;
+        
+    }
+
+
+    #submit-button:hover{
+
+        background: #f59d93;
+        font-style: italic;
+        /*transform: matrix(2,0,0,0,0,0);
+        transform: rotate(-90deg) scale(2.5);*/
+        
+        
+    }
+
+    @keyframes translate-element{
+
+    0% {
+            background: #f59d93;
+            
+        }
+
+    50% {background: yellow;}
+
+        100% {
+            background: black;
+
+        }
+    }
+
+    #Contact-us{
+        
+        animation-name: translate-element;
+        animation-duration: 4s;
+        animation-timing-function: ease;
+        animation-iteration-count: infinite;
+        
+
+
+    }
